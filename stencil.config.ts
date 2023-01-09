@@ -3,6 +3,8 @@ import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'web-components-library',
+  globalStyle: 'src/global/app.scss',
+  globalScript: 'src/global/app.ts',
   plugins: [
     sass()
   ],
