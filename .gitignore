@@ -5,6 +5,9 @@ node_modules/
 jspm_packages/
 *.lock
 package-lock.json
+loader/
+www/
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
